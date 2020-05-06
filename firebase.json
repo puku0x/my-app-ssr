@@ -1,0 +1,22 @@
+{
+  "hosting": [
+    {
+      "target": "my-app-ssr",
+      "public": "dist/my-app-ssr/dist/my-app-ssr/browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "function": "ssr"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "source": "dist/my-app-ssr"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-app-c1ffa": {
+      "hosting": {
+        "my-app-ssr": [
+          "fir-app-c1ffa"
+        ]
+      }
+    }
+  }
+}
